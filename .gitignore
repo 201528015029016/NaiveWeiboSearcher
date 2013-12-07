@@ -1,0 +1,5 @@
+#file
+*.pyc
+
+#folder
+library/
