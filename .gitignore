@@ -1,6 +1,7 @@
 #file
 *.log
 *.pyc
+*.txt
 test.py
 #folder
 library/
