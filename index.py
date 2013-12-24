@@ -14,7 +14,7 @@ stopPattern = u'^`|~|!|@|#|\$|%|\^|&|\*|\(|\)|_|\+|-|=|\{|\}|\[|\]|\||\\|:|;|<|,
 stopfilter = re.compile(stopPattern)
 topicPattern = u'#[^#]+#'
 topicFilter = re.compile(topicPattern)
-with open('./library/stopList.csv','r') as stopListFile:
+with open('./stopList.csv','r') as stopListFile:
 	stopList = set()
 	reader = csv.reader(stopListFile)
 	for row in reader:
